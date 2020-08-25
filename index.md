@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     
 
@@ -68,7 +67,7 @@
 
 
 
-<img src="images\main.jpg" height="400px" width="300px"  >
+<img src="main.jpg" height="400px" width="300px"  >
 
 <s> <h1 class="title">THE CREATOR</h1></s>
 
@@ -92,10 +91,10 @@
 
 
   <!-- Div for the image visible on page load. -->
-<div style=" cursor:pointer; width: 400px; height: 400px;  margin: auto; " onclick="ShowImagePopup('pop-up-div','pop-up-image-div','pop-up-image','https://drive.google.com/file/d/1XKlSPIsUiXRZgqgeJTnzzWQVuQrv1yuH/view?usp=sharing')">
+<div style=" cursor:pointer; width: 400px; height: 400px;  margin: auto; " onclick="ShowImagePopup('pop-up-div','pop-up-image-div','pop-up-image','untitled.1.png')">
 
   <div id="frame">
-    <img src="images/untitled.1.png" class="tape" style=" width: 400px; height: 400px; display:block;   margin: auto auto; "> 
+    <img src="untitled.1.png" class="tape" style=" width: 400px; height: 400px; display:block;   margin: auto auto; "> 
 
   </div>
   <!-- The image visible on page load. -->
@@ -115,7 +114,7 @@
   <div id="pop-up-image-div" style="position:relative; display:block; z-index:97; max-width:100%; max-height:100%;width:700px; height:700px; margin:0px auto 0px auto; box-shadow:0px 0px 20px 1px rgb(170, 0, 0); background-color:transparent;">
   
   <!-- The image in the popup. -->
-  <img id="pop-up-image" src="https://drive.google.com/file/d/14xfKvnlCi1RiUCewh20ngICCYDSQt8Et/view?usp=sharing" style="z-index:98; border:none; outline:none; margin-top:0; max-width:100%; max-height:100%; width:700px; height:700px;">
+  <img id="pop-up-image" src="untitled.1.jpg" style="z-index:98; border:none; outline:none; margin-top:0; max-width:100%; max-height:100%; width:700px; height:700px;">
   
  
   </div><!-- id="pop-up-image-div" -->
@@ -142,19 +141,19 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="https://drive.google.com/file/d/1dWRFRnOW5k71-WejO3MdxUYQNnC3cN8X/view?usp=sharing" style="width:100%">
+    <img src="helmangle.png" style="width:100%">
   
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="https://drive.google.com/file/d/1uD1M24a4RT4Fl4V-ewcf-1SXpvWxN4GL/view?usp=sharing" style="width:100%">
+    <img src="helmfront.png" style="width:100%">
   
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="https://drive.google.com/file/d/1eQsTc5_y-mYwtL3es3JhGZWjVUu3LWBJ/view?usp=sharing" style="width:100%">
+    <img src="helmside.png" style="width:100%">
     
   </div>
 
